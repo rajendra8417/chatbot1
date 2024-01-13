@@ -3,7 +3,7 @@ import openai
 import json
 import requests 
 from flask_cors import CORS
-app=Flask("rishu")  
+app=Flask("rajendra")  
 CORS(app)
 @app.route("/gh",methods=["POST","GET"])
 def home():
